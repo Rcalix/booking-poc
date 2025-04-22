@@ -1,4 +1,3 @@
-// src/components/bookings/BookingCard.tsx
 "use client";
 
 import { useState } from 'react';

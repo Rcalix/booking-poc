@@ -1,4 +1,3 @@
-// src/app/bookings/page.tsx
 "use client";
 
 import { useEffect } from 'react';

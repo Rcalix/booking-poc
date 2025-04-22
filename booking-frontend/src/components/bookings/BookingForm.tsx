@@ -1,4 +1,3 @@
-// src/components/bookings/BookingForm.tsx
 "use client";
 
 import { useState } from 'react';
