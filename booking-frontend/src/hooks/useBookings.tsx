@@ -59,6 +59,7 @@ export default function useBookings() {
     try {
       bookingService.connectGoogleCalendar();
     } catch (err) {
+      console.error('Error connecting to Google Calendar:', err);
       setError('Failed to connect to Google Calendar');
       toast.error('Could not connect to Google Calendar');
     }
