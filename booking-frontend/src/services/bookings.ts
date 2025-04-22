@@ -30,5 +30,5 @@ export const checkGoogleCalendarConflicts = async (startTime: string, endTime: s
 };
 
 export const connectGoogleCalendar = (): void => {
-  window.location.href = `${process.env.NEXT_PUBLIC_API_URL}/google/connect`;
+  window.location.href = `${process.env.NEXT_PUBLIC_API_URL}/api/google/connect`;
 };
